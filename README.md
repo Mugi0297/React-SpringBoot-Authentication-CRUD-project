@@ -70,8 +70,60 @@ frontend/
 
 ### 🔹 Backend: `backend/`
 
-<pre><code>backend/ ├── src/ │ └── main/ │ ├── java/ │ │ └── com/example/authcrud/ │ │ ├── AuthCrudApplication.java │ │ ├── config/ │ │ │ ├── SecurityConfig.java │ │ │ ├── SwaggerConfig.java │ │ │ ├── WebConfig.java │ │ ├── controller/ │ │ │ ├── AuthController.java │ │ │ ├── EmployeeController.java │ │ │ ├── AdminController.java │ │ ├── dto/ │ │ │ ├── EmployeeDTO.java │ │ │ ├── EmployeeRequestDTO.java │ │ ├── model/ │ │ │ ├── User.java │ │ │ ├── Employee.java │ │ │ ├── PasswordResetToken.java │ │ │ ├── VerificationToken.java │ │ ├── repository/ │ │ │ ├── UserRepository.java │ │ │ ├── EmployeeRepository.java │ │ │ ├── PasswordResetTokenRepository.java │ │ │ ├── VerificationTokenRepository.java │ │ ├── security/ │ │ │ ├── JwtUtil.java │ │ │ ├── JwtAuthenticationFilter.java │ │ │ ├── CurrentUser.java │ │ │ ├── UserPrincipal.java │ │ ├── service/ │ │ │ ├── CustomUserDetailsService.java │ │ │ ├── EmployeeService.java │ │ │ ├── EmailService.java │ │ │ └── impl/ │ │ │ ├── EmployeeServiceImpl.java │ │ ├── mapper/ │ │ │ ├── EmployeeMapper.java │ │ ├── payload/ │ │ │ ├── LoginRequest.java │ │ │ ├── LoginResponse.java │ │ ├── resources/ │ │ ├── static/ │ │ ├── templates/ │ │ ├── application.properties │ ├── pom.xml </code></pre>
+### 📁 Frontend Folder Structure
 
+```text
+backend/
+
+src/
+└── main/
+    ├── java/
+    │   └── com/
+    │       └── example/
+    │           └── authcrud/
+    │               ├── AuthCrudApplication.java
+    │               ├── config/
+    │               │   ├── SecurityConfig.java
+    │               │   ├── SwaggerConfig.java
+    │               │   ├── WebConfig.java
+    │               ├── controller/
+    │               │   ├── AuthController.java
+    │               │   ├── EmployeeController.java
+    │               │   ├── AdminController.java
+    │               ├── dto/
+    │               │   ├── EmployeeDTO.java
+    │               │   ├── EmployeeRequestDTO.java
+    │               ├── model/
+    │               │   ├── User.java
+    │               │   ├── Employee.java
+    │               │   ├── PasswordResetToken.java
+    │               │   ├── VerificationToken.java
+    │               ├── repository/
+    │               │   ├── UserRepository.java
+    │               │   ├── EmployeeRepository.java
+    │               │   ├── PasswordResetTokenRepository.java
+    │               │   ├── VerificationTokenRepository.java
+    │               ├── security/
+    │               │   ├── JwtUtil.java
+    │               │   ├── JwtAuthenticationFilter.java
+    │               │   ├── CurrentUser.java
+    │               │   ├── UserPrincipal.java
+    │               ├── service/
+    │               │   ├── CustomUserDetailsService.java
+    │               │   ├── EmployeeService.java
+    │               │   ├── EmailService.java
+    │               │   └── impl/
+    │               │       ├── EmployeeServiceImpl.java
+    │               ├── mapper/
+    │               │   ├── EmployeeMapper.java
+    │               ├── payload/
+    │               │   ├── LoginRequest.java
+    │               │   ├── LoginResponse.java
+    ├── resources/
+    │   ├── static/
+    │   ├── templates/
+    │   ├── application.properties
+pom.xml
 
 ---
 
