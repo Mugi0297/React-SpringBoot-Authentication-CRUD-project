@@ -171,7 +171,9 @@ pom.xml
 4. Access Swagger Docs at:
    http://localhost:8080/swagger-ui/index.html
 
+
 🔧 Frontend Setup
+
 1. Navigate to frontend:
    cd frontend
 
