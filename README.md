@@ -28,88 +28,12 @@ A full-stack **Employee Management System** built using **ReactJS (Vite)** for t
 
 ### 🔹 Frontend: `frontend/`
 
-frontend/
-├── index.html
-├── vite.config.js
-└── src/
-├── App.jsx
-├── main.jsx
-├── components/
-│ ├── Auth/
-│ │ ├── ForgotPassword.jsx
-│ │ ├── Login.jsx
-│ │ ├── Register.jsx
-│ │ ├── ResetPassword.jsx
-│ │ ├── VerifyEmail.jsx
-│ │ ├── VerifyFailed.jsx
-│ │ ├── VerifySuccess.jsx
-│ ├── Dashboard/
-│ │ ├── AdminDashboard.jsx
-│ │ ├── EmployeeForm.jsx
-│ │ ├── EmployeeList.jsx
-│ │ ├── UserDashboard.jsx
-│ ├── Navbar.jsx
-│ ├── ProtectedRoute.jsx
-├── pages/
-│ ├── AdminDashboard.css
-│ ├── ForgotPassword.css
-│ ├── Login.css
-│ ├── Register.css
-│ ├── UserDashboard.css
-│ ├── VerifyPage.css
-├── services/
-├── api.js
-├── authService.js
-├── employeeService.js
+<pre><code> frontend/ ├── index.html ├── vite.config.js └── src/ ├── App.jsx ├── main.jsx ├── components/ │ ├── Auth/ │ │ ├── ForgotPassword.jsx │ │ ├── Login.jsx │ │ ├── Register.jsx │ │ ├── ResetPassword.jsx │ │ ├── VerifyEmail.jsx │ │ ├── VerifyFailed.jsx │ │ ├── VerifySuccess.jsx │ ├── Dashboard/ │ │ ├── AdminDashboard.jsx │ │ ├── EmployeeForm.jsx │ │ ├── EmployeeList.jsx │ │ ├── UserDashboard.jsx │ ├── Navbar.jsx │ ├── ProtectedRoute.jsx ├── pages/ │ ├── AdminDashboard.css │ ├── ForgotPassword.css │ ├── Login.css │ ├── Register.css │ ├── UserDashboard.css │ ├── VerifyPage.css ├── services/ ├── api.js ├── authService.js ├── employeeService.js </code></pre>
 
 
 ### 🔹 Backend: `backend/`
 
-backend/
-├── src/main/java/com/example/authcrud/
-│ ├── AuthCrudApplication.java
-│ ├── config/
-│ │ ├── SecurityConfig.java
-│ │ ├── SwaggerConfig.java
-│ │ ├── WebConfig.java
-│ ├── controller/
-│ │ ├── AuthController.java
-│ │ ├── EmployeeController.java
-│ │ ├── AdminController.java
-│ ├── dto/
-│ │ ├── EmployeeDTO.java
-│ │ ├── EmployeeRequestDTO.java
-│ ├── model/
-│ │ ├── User.java
-│ │ ├── Employee.java
-│ │ ├── PasswordResetToken.java
-│ │ ├── VerificationToken.java
-│ ├── repository/
-│ │ ├── UserRepository.java
-│ │ ├── EmployeeRepository.java
-│ │ ├── PasswordResetTokenRepository.java
-│ │ ├── VerificationTokenRepository.java
-│ ├── security/
-│ │ ├── JwtUtil.java
-│ │ ├── JwtAuthenticationFilter.java
-│ │ ├── CurrentUser.java
-│ │ ├── UserPrincipal.java
-│ ├── service/
-│ │ ├── CustomUserDetailsService.java
-│ │ ├── EmployeeService.java
-│ │ ├── EmailService.java
-│ │ └── impl/
-│ │ ├── EmployeeServiceImpl.java
-│ ├── mapper/
-│ │ ├── EmployeeMapper.java
-│ ├── payload/
-│ │ ├── LoginRequest.java
-│ │ ├── LoginResponse.java
-├── src/main/resources/
-│ ├── static/
-│ ├── templates/
-│ ├── application.properties
-├── pom.xml
+<pre><code>backend/ ├── src/ │ └── main/ │ ├── java/ │ │ └── com/example/authcrud/ │ │ ├── AuthCrudApplication.java │ │ ├── config/ │ │ │ ├── SecurityConfig.java │ │ │ ├── SwaggerConfig.java │ │ │ ├── WebConfig.java │ │ ├── controller/ │ │ │ ├── AuthController.java │ │ │ ├── EmployeeController.java │ │ │ ├── AdminController.java │ │ ├── dto/ │ │ │ ├── EmployeeDTO.java │ │ │ ├── EmployeeRequestDTO.java │ │ ├── model/ │ │ │ ├── User.java │ │ │ ├── Employee.java │ │ │ ├── PasswordResetToken.java │ │ │ ├── VerificationToken.java │ │ ├── repository/ │ │ │ ├── UserRepository.java │ │ │ ├── EmployeeRepository.java │ │ │ ├── PasswordResetTokenRepository.java │ │ │ ├── VerificationTokenRepository.java │ │ ├── security/ │ │ │ ├── JwtUtil.java │ │ │ ├── JwtAuthenticationFilter.java │ │ │ ├── CurrentUser.java │ │ │ ├── UserPrincipal.java │ │ ├── service/ │ │ │ ├── CustomUserDetailsService.java │ │ │ ├── EmployeeService.java │ │ │ ├── EmailService.java │ │ │ └── impl/ │ │ │ ├── EmployeeServiceImpl.java │ │ ├── mapper/ │ │ │ ├── EmployeeMapper.java │ │ ├── payload/ │ │ │ ├── LoginRequest.java │ │ │ ├── LoginResponse.java │ │ ├── resources/ │ │ ├── static/ │ │ ├── templates/ │ │ ├── application.properties │ ├── pom.xml </code></pre>
 
 
 ---
