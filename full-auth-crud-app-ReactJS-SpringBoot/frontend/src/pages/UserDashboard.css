@@ -1,0 +1,14 @@
+.user-dashboard-bg {
+  min-height: 100vh;
+  background: linear-gradient(
+    to right,
+    #667eea,
+    #764ba2
+  ); /* Same as Register.jsx */
+  padding-top: 0px;
+}
+
+.card {
+  background-color: white;
+  border: none;
+}

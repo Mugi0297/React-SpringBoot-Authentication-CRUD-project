@@ -1,0 +1,11 @@
+.register-page {
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  min-height: 100vh;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 450px;
+  border-radius: 15px;
+  background-color: #fff;
+}

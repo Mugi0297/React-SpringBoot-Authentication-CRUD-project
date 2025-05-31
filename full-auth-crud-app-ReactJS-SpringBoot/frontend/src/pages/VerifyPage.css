@@ -1,0 +1,14 @@
+/* src/styles/VerifyPage.css */
+.verify-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.verify-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
