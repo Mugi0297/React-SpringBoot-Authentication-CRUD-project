@@ -63,7 +63,7 @@ frontend/
     │   ├── VerifyPage.css
     ├── services/
     │   ├── api.js
-    │   ├── authService.js
+    │   ├── adminService.js
     │   ├── employeeService.js 
 
 
@@ -119,6 +119,8 @@ src/
     │               ├── payload/
     │               │   ├── LoginRequest.java
     │               │   ├── LoginResponse.java
+    │               ├── exception/
+    │               │   ├── ResourceNotFoundException.java
     ├── resources/
     │   ├── static/
     │   ├── templates/
